@@ -1,6 +1,8 @@
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
+    --primary-font: 'Amiri', serif;
+    --secondary-font: 'Sofia Sans', sans-serif;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
@@ -16,20 +18,25 @@
   
   h1 {
     font-size: 96px;
+    font-family: var(--primary-font);
   }
   
   h2 {
     font-size: 48px;
+    font-family: var(--primary-font);
+
   }
   
   h3 {
     font-size: 24px;
+    font-family: var(--primary-font);
     opacity: 0.7;
   }
   
   p {
     font-size: 18px;
     line-height: 1.5;
+    font-family: var(--secondary-font);
   }
   
   .navigation-links {
