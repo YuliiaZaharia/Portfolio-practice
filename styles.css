@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #fa4529;
     --secondary-color: #f5f2fe;
+    --body-color: #FCFDF2;
     --primary-font: 'Amiri', serif;
     --secondary-font: 'Sofia Sans', sans-serif;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -8,6 +9,7 @@
   
   body {
     margin-top: 100px;
+    background-color: var(--body-color);
   }
   
   h1,
@@ -79,7 +81,7 @@
   }
   
   .about-paragraphs p {
-    margin: 10px;
+    margin: 15px;
   }
   
   .email-link {
@@ -144,4 +146,12 @@
     font-size: 1.4rem;
     margin-bottom: .7rem;
 }
+
+.testimonial {
+  font-size: 35px;
+  text-align: center;
+  padding: 30px;
+  margin: 0 30px;
+}
+
   
